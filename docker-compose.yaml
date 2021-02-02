@@ -1,0 +1,9 @@
+version: "2"
+services:
+  mkdocs:
+    image: squidfunk/mkdocs-material
+    container_name: pycap-mkdocs
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/docs
