@@ -1,3 +1,62 @@
-site_name: My Docs
+site_name: "PyCap"
+site_description: "Evolving repo of course material for the PyCap courses"
+site_url: "https://CapgeminiInventIDE.github.io/PyCap"
+repo_url: "https://github.com/CapgeminiInventIDE/PyCap"
+repo_name: "CapgeminiInventIDE/PyCap"
+
+nav:
+  - Getting Started: index.md
+  - Courses:
+    - Intro To Python:
+      - Course 1: intro-to-python/course-1.md
+  - Contributing: contributing.md
+  - Code of Conduct: code_of_conduct.md
+  - Changelog: changelog.md
+  - License: license.md
+  - About Us: about_us.md
+
 theme:
   name: material
+  custom_dir: docs/overrides
+  logo: assets/imgs/index.png
+  favicon: assets/imgs/favicon.ico
+  palette:
+    scheme: capgemini
+
+extra_css:
+  - assets/css/styles.css
+
+extra_javascript:
+  - assets/js/theme.js
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed
+  - toc:
+      permalink: "¤"
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CapgeminiInventIDE
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/capgemini-invent
+    - icon: fontawesome/solid/globe
+      link: https://www.capgemini.com/service/invent/
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/orgs/capgeminiinventide
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/rQcMtVE
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/capgeminiinvent/
