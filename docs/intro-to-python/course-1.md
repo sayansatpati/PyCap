@@ -13,4 +13,4 @@ mentors:
 |-----|-------|
 | Created date | {{ date }} |
 | Level | {{ level }} |
-| Mentor{% if mentors|length > 1%}s{% endif %} | {% for mentor in mentors %}<a href="{{ repo_url }}/contributing/#mentor-{{ mentor }}"><img style="border-radius:50%;width:50px;height:50px;margin-right:8px;" src="https://github.com/{{ mentor }}.png"></a>{% endfor %} |
+| Mentor{% if mentors|length > 1%}s{% endif %} | {% for mentor in mentors %}<a href="{{ site_url }}/contributing/#mentor-{{ mentor }}"><img style="border-radius:50%;width:50px;height:50px;margin-right:8px;" src="https://github.com/{{ mentor }}.png"></a>{% endfor %} |
