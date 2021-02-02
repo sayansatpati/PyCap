@@ -5,6 +5,21 @@ level: Basics
 mentors: 
   - TimSando
   - ghandic
+tags:
+  - Basics
+  - Best practices
+  - Basics
+  - Best practices
+  - Basics
+  - Best practices
+  - Basics
+  - Best practices
+  - Basics
+  - Best practices
+  - Basics
+  - Best practices
+  - Basics
+  - Best practices
 ---
 
-{{ course_summary(title, date, level, mentors) }}
+{{ course_summary(title, date, level, mentors, tags) }}
