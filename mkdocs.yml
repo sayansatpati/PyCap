@@ -9,7 +9,7 @@ nav:
   - Courses:
     - Intro To Python:
       - Course 1: intro-to-python/course-1.md
-      - Course 2: intro-to-python/course-1.md
+      - Course 2: intro-to-python/course-2.md
     - Advanced Python:
       - Course 1: advanced-python/course-1.md
   - Contributing: contributing.md
@@ -48,6 +48,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - macros
 
 extra:
   social:
@@ -63,3 +64,15 @@ extra:
       link: https://discord.gg/rQcMtVE
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/capgeminiinvent/
+  mentors:
+    - name: Andy Challis
+      github: ghandic
+      description: Short bioShort bioShort bioShort bioShort bioShort bioShort bio Short bioShort bioShort bioShort bioShort bioShort bioShort bio
+      courses: 
+        - intro-to-python/course-1
+        - intro-to-python/course-2
+    - name: Tim Sanderson
+      github: TimSando
+      description: Short bioShort bioShort bioShort bioShort bioShort bioShort bio Short bioShort bioShort bioShort bioShort bioShort bioShort bio
+      courses:
+        - advanced-python/course-1

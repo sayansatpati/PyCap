@@ -1,7 +1,8 @@
 version: "2"
 services:
   mkdocs:
-    image: squidfunk/mkdocs-material
+    build: .
+    image: capgemini-invent-ide/pycap-mkdocs
     container_name: pycap-mkdocs
     ports:
       - "8000:8000"
