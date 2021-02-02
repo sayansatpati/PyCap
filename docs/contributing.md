@@ -16,7 +16,7 @@
       Courses
       <ul>
       {% for course in mentor['courses'] %}
-        <a href="/{{ course }}/"><li>{{ course }}</li></a>
+        <a href="{{ repo_url }}/{{ course }}/"><li>{{ course }}</li></a>
       {% endfor %}
       </ul>
       </div>
