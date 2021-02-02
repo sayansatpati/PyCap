@@ -22,7 +22,7 @@ theme:
   name: material
   custom_dir: docs/overrides
   logo: assets/imgs/index.png
-  favicon: assets/imgs/favicon.ico
+  favicon: assets/imgs/favicon.png
   palette:
     scheme: capgemini
 
