@@ -9,6 +9,9 @@ nav:
   - Courses:
     - Intro To Python:
       - Course 1: intro-to-python/course-1.md
+      - Course 2: intro-to-python/course-1.md
+    - Advanced Python:
+      - Course 1: advanced-python/course-1.md
   - Contributing: contributing.md
   - Code of Conduct: code_of_conduct.md
   - Changelog: changelog.md
