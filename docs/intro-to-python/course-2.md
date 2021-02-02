@@ -7,6 +7,8 @@ mentors:
 tags:
   - Basics
   - Best practices
+links:
+  - '[Coursera follow along course (Weeks 1, 2, 3)](https://www.coursera.org/learn/python?specialization=python#syllabus)'
 ---
 
-{{ course_summary(title, date, level, mentors, tags) }}
+{{ course_summary(title, date, level, mentors, tags, links) }}
