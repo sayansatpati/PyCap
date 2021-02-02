@@ -6,11 +6,12 @@
 
 # PyCap
 
-[![documentation](https://img.shields.io/badge/docs-mkdocs%20material-blue.svg?style=flat)](https://CapgeminiInventIDE.github.io/PyCap/)
-[![Generic badge](https://img.shields.io/badge/Course%20Content-Evolving-green.svg)](https://CapgeminiInventIDE.github.io/PyCap/)
+[![Cocumentation](https://img.shields.io/badge/docs-mkdocs%20material-blue.svg?style=flat)](https://CapgeminiInventIDE.github.io/PyCap/)
+[![Course Content Evolving](https://img.shields.io/badge/Course%20Content-Evolving-green.svg)](https://CapgeminiInventIDE.github.io/PyCap/)
 [![Discord](https://img.shields.io/discord/752353026366242846.svg?label=Join%20us%20on%20Discord&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/rQcMtVE)
 [![License](https://img.shields.io/pypi/l/doc_loader.svg)](https://github.com/CapgeminiInventIDE/PyCap/blob/master/LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Run on repl.it](https://docs.repl.it/images/repls/run-on-replit.svg)](https://repl.it/github/CapgeminiInventIDE/PyCap)
 
 Evolving repo of course material for the PyCap courses
 
