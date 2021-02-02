@@ -44,7 +44,9 @@ div.doc-contents:not(.first) {
     .md-icon svg {
         fill: var(--md-primary-bg-color);
       }
-    
+    button[data-md-color-scheme] {
+        float: right;
+    }
     [data-md-color-scheme="capgemini"] {
         --md-primary-fg-color:        rgba(0,112,173);
         --md-primary-fg-color--light: rgba(18,171,219);
