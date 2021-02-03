@@ -16,3 +16,30 @@ def define_env(env):
 | Follow along problems{ 's' if len(problems) > 1 else ''} | {''.join([f'<div>{problem}</div>' for problem in problems])} |
 
 """
+
+    @env.macro
+    def mentor_summary(mentor):
+
+        site = env.conf["site_url"].strip("/")
+
+        return f"""
+        <div id="mentor-{ mentor['github'] }" style="display: flex;margin-bottom:30px;">
+            <img style="border-radius:50%;width:80px;height:80px" src="https://github.com/{ mentor['github'] }.png">
+            <div style="flex-grow:1;margin-left:20px;" >
+                <a href="https://github.com/{ mentor['github'] }">
+                    <div>
+                    { mentor['name'] }
+                    </div>
+                </a>
+                <div>
+                    {mentor['description']}
+                </div>
+                <div style="margin-top:20px;">
+                    Courses
+                    <ul>
+                        {''.join([f'<a href="{site}/{ course }/"><li>{ course }</li></a>' for course in mentor['courses']]) }
+                    </ul>
+                </div>
+            </div>
+        </div>
+        """.strip()
