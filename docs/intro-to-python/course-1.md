@@ -21,9 +21,12 @@ tags:
   - Basics
   - Best practices
 links:
-  - '[Coursera follow along course (Weeks 1, 2, 3)](https://www.coursera.org/learn/python?specialization=python#syllabus)'
-  - '[Coursera follow along course (Weeks 1, 2, 3)](https://www.coursera.org/learn/python?specialization=python#syllabus)'
-
+  - '[Coursera follow along course (Weeks 1, 2, 3)](https://www.coursera.org/learn/python?specialization=python#syllabus){target=_blank}'
+  - '[Coursera follow along course (Weeks 1, 2, 3)](https://www.coursera.org/learn/python?specialization=python#syllabus){target=_blank}'
+problems:
+  - '[Problem Name](https://www.google.com){target=_blank}'
 ---
 
-{{ course_summary(title, date, level, mentors, tags, links) }}
+{{ course_summary(title, date, level, mentors, tags, links, problems) }}
+
+## Section 1
