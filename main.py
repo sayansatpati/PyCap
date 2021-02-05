@@ -34,9 +34,9 @@ def define_env(env):
                 <div>
                     {mentor['description']}
                 </div>
-                <div style="margin-top:20px;">
+                <div style="margin-top:10px;">
                     Courses
-                    <ul>
+                    <ul style="margin-top:5px;">
                         {''.join([f'<a href="{site}/{ course }/"><li>{ course }</li></a>' for course in mentor['courses']]) }
                     </ul>
                 </div>
