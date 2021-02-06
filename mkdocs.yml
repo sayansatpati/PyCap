@@ -10,6 +10,13 @@ nav:
     - Intro To Python:
       - Course 1: intro-to-python/course-1.md
       - Course 2: intro-to-python/course-2.md
+      - Capstone Projects:
+        - Introduction: intro-to-python/capstone/intro.md
+        - Board game emulation: intro-to-python/capstone/board_game.md
+        - Interacting with external API's: intro-to-python/capstone/external_apis.md
+        - Encryption and secrets manager: intro-to-python/capstone/secrets.md
+        - Building a TODO list: intro-to-python/capstone/todo_list.md
+        - Scraping the web for data: intro-to-python/capstone/web_scraping.md
     - Advanced Python:
       - Course 1: advanced-python/course-1.md
   - Contributing: contributing.md

@@ -13,4 +13,4 @@ problems:
   - '[Problem Name](https://www.google.com){target=_blank}'
 ---
 
-{{ course_summary(title, date, level, mentors, tags, links, problems) }}
+{{ course_summary(title, date, level=level, mentors=mentors, tags=tags, links=links, problems=problems) }}
