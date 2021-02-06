@@ -1,4 +1,4 @@
-# PyCap-TODO-CRUD
+# PyCap Intro to Python Capstone - Building a TODO list
 
 Capstone example of applying the learnings from PyCap intro to Python
 
