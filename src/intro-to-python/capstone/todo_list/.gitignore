@@ -1,5 +1,4 @@
-# Mac specific
-.DS_Store
+# Application specific
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
