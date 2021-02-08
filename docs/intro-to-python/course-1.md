@@ -29,4 +29,30 @@ problems:
 
 {{ course_summary(title, date, level=level, mentors=mentors, tags=tags, links=links, problems=problems) }}
 
-## Section 1
+## Summary
+
+This course plans to provide a solid understand of python's core concepts.
+
+## Topics
+
+1. Dictionaries
+2. Lists
+3. etc
+
+## Mentors
+
+- Andy Challis
+- Tim Sanders
+
+## Recommended Follow-along Courses
+
+| Topics       | Links         |
+| ------------- |:-------------:|
+| Dictionaries| [Coursera dictionary course](https://www.google.com) |
+| Lists      | [Coursera list course](https://www.google.com) |
+| etc     | [Some link](https://www.google.com) |
+
+## Problems
+
+The problems are meant to help you gain a practical comprehension of the topics.
+[Feel free to visit the problem page. Click here!](https://www.google.com)
