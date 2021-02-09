@@ -1,23 +1,17 @@
 ---
 title: Python Fundamentals
+description: This course aims to teach everyone the basics and best practices of python programming. These concepts together will form the tools to allow you to solve programming problems using python and write your own programs with a high standard. There are links to courses and materials to help you in your journey of mastering python as well as problems to test your understanding and hone your practical knowledge.
+prev_know: None
+skills:
+  - Python syntax and semantics
+  - Best coding practices
+  - Problem solving using python
 date: 02/02/2021
-level: Basics
+level: Basic
 mentors: 
   - TimSando
   - ghandic
 tags:
-  - Basics
-  - Best practices
-  - Basics
-  - Best practices
-  - Basics
-  - Best practices
-  - Basics
-  - Best practices
-  - Basics
-  - Best practices
-  - Basics
-  - Best practices
   - Basics
   - Best practices
 links:
@@ -27,32 +21,4 @@ problems:
   - '[Problem Name](https://www.google.com){target=_blank}'
 ---
 
-{{ course_summary(title, date, level=level, mentors=mentors, tags=tags, links=links, problems=problems) }}
-
-## Summary
-
-This course plans to provide a solid understand of python's core concepts.
-
-## Topics
-
-1. Dictionaries
-2. Lists
-3. etc
-
-## Mentors
-
-- Andy Challis
-- Tim Sanders
-
-## Recommended Follow-along Courses
-
-| Topics       | Links         |
-| ------------- |:-------------:|
-| Dictionaries| [Coursera dictionary course](https://www.google.com) |
-| Lists      | [Coursera list course](https://www.google.com) |
-| etc     | [Some link](https://www.google.com) |
-
-## Problems
-
-The problems are meant to help you gain a practical comprehension of the topics.
-[Feel free to visit the problem page. Click here!](https://www.google.com)
+{{ course_summary(title, date, description=description, prev_know=prev_know, skills=skills, level=level, mentors=mentors, tags=tags, links=links, problems=problems) }}
