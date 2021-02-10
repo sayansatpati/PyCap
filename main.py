@@ -55,3 +55,27 @@ def define_env(env):
             </div>
         </div>
         """.strip()
+
+    @env.macro
+    def certified(student):
+
+        site = env.conf["site_url"].strip("/")
+
+        return f"""
+        <div id="mentor-{ student['github'] }" style="display: flex;margin-bottom:30px;align-items: center;">
+            <img style="border-radius:50%;width:80px;height:80px" src="https://github.com/{ student['github'] }.png">
+            <div style="flex-grow:1;margin-left:20px;" >
+                <a href="https://github.com/{ student['github'] }">
+                    <div>
+                    { student['name'] }
+                    </div>
+                </a>
+                <div>
+                    Certificate: <a href="{student['badgr']}">View my certificate on Badgr!</a>
+                </div>
+                <div>
+                    Capstone: <a href="{student['capstone']}">View my capstone on Github!</a>
+                </div>
+            </div>
+        </div>
+        """.strip()
