@@ -1,11 +1,5 @@
 # Contributing
 
-## Our Mentors
-
-{% for mentor in mentors %}
-{{ mentor_summary(mentor) }}
-{% endfor %}
-
 ## Become a Mentor
 Mentors are required to guide students in their PyCap courses. This typically involves answering questions about Python or the course material, helping debug Python code, designing and assessing CapStone projects, and contributing to the course material. 
 
@@ -19,5 +13,13 @@ If there is a Python-based topic that you are familiar with and are passionate a
 ## Write course content
 You can request to contribute course content for additional topics that are not already covered in the courses. 
 
+## Other contributions
+If you would like to make any other contributions to the PyCap materials (for example, to correct typos), you may do so by submitting a pull request to the [PyCap repository](https://github.com/CapgeminiInventIDE/PyCap): 
 
-If you would like to contribute in any of these ways, contact Andy Challis at andy.challis@capgemini.com. 
+1. Fork the repository
+2. Create a branch in your own fork: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <project_name>/<location>`
+5. Create the pull request back to our fork.
+
+If you would like to become a mentor, speak on a special topic or write course content, send a request to Andy Challis at andy.challis@capgemini.com. 
