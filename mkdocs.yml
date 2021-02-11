@@ -8,6 +8,7 @@ nav:
   - Getting Started: index.md
   - Courses:
     - Intro To Python:
+      - Introduction: intro-to-python/introduction.md
       - Course 1: intro-to-python/course-1.md
       - Course 2: intro-to-python/course-2.md
       - Capstone Projects:
