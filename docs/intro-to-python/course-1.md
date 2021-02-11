@@ -7,18 +7,14 @@ skills:
   - Best coding practices
   - Problem solving using python
 date: 02/02/2021
-level: Basic
 mentors: 
   - TimSando
   - ghandic
-tags:
-  - Basics
-  - Best practices
 links:
   - '[Coursera follow along course (Weeks 1, 2, 3)](https://www.coursera.org/learn/python?specialization=python#syllabus){target=_blank}'
   - '[Coursera follow along course (Weeks 1, 2, 3)](https://www.coursera.org/learn/python?specialization=python#syllabus){target=_blank}'
-problems:
   - '[Problem Name](https://www.google.com){target=_blank}'
+  
 ---
 
-{{ course_summary(title, date, description=description, prev_know=prev_know, skills=skills, level=level, mentors=mentors, tags=tags, links=links, problems=problems) }}
+{{ course_summary(title, date, description=description, prev_know=prev_know, skills=skills, mentors=mentors, links=links) }}
