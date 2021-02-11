@@ -16,7 +16,7 @@ As you can see, lots of cool and interesting things to build :satisfied:
 
 ### Instant development environment
 
-We will be using repl.it for this course. It is an online development playground that let you start without any all the hassels setup. Trust me, I wish I know about it when I was learning Python. :smirk:
+We will be using repl.it for this course. It is an online development playground that let you start without any of the hassels to setup. Trust me, I wish I know about it when I was learning Python. :smirk:
 
 To immediately get access to a development environment [click here](https://repl.it/github/CapgeminiInventIDE/PyCap), this should set you up with a repl.it IDE in your browser with all the code in this course. It should look very similar to  the below image.
 
