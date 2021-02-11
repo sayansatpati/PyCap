@@ -27,7 +27,7 @@ If you are a little bit brave and interested in working locally on your laptop, 
 
 First ensure you have `git`, `VSCode` and `Python` (3.6+) installed, open up your terminal/command prompt and run the following
 
-- [Python](https://www.Python.org/downloads/) (Ensure you download Python 3.6+)
+- [Python](https://www.python.org/downloads/) (Ensure you download Python 3.6+)
 - [VSCode](https://code.visualstudio.com/download)
 - [Git](https://git-scm.com/downloads)
 
