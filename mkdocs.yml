@@ -5,10 +5,10 @@ repo_url: "https://github.com/CapgeminiInventIDE/PyCap"
 repo_name: "CapgeminiInventIDE/PyCap"
 
 nav:
-  - Getting Started: index.md
+  - Welcome: index.md
   - Courses:
-    - Intro To Python:
-      - Introduction: intro-to-python/introduction.md
+    - Introduction To Python:
+      - Summary: intro-to-python/summary.md
       - Course 1: intro-to-python/course-1.md
       - Course 2: intro-to-python/course-2.md
       - Capstone Projects:
@@ -22,11 +22,13 @@ nav:
       - Course 1: advanced-python/course-1.md
   - Mentors: mentors.md
   - Certified Members: certified.md
-  - Contributing: contributing.md
-  - Code of Conduct: code_of_conduct.md
-  - Changelog: changelog.md
-  - License: license.md
-  - About Us: about_us.md
+  - Additional Info:
+    - Contributing: contributing.md
+    - Code of Conduct: code_of_conduct.md
+    - Changelog: changelog.md
+    - License: license.md
+    - About Us: about_us.md
+  
 
 theme:
   name: material

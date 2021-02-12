@@ -1,10 +1,20 @@
-# Welcome to PyCap
-Welcome everyone to PyCap! The new and growing community of Python enthusiasts and professionals across Capgemini. 
-We are running the first course of 2021: Python Foundations. This course will serve as an introduction to Python and an opportunity for everyone to dip their toes into programming. This course will provide you with the knowledge to begin using Python on project or for your own personal projects. We hope you will enjoy your stay with us and be part of this growing community. 
+# Welcome everyone to PyCap!
+
+**The new and growing community of Python enthusiasts and professionals across Capgemini.**
+
+{{news("""
+
+<p>We are running the first course of 2021: <a href='intro-to-python/introduction.md'>Introduction to Python</a></p>
+<p>This course will serve as an introduction to Python and an opportunity for everyone to dip their toes into programming. This course will provide you with the knowledge to begin using Python on project or for your own personal projects. We hope you will enjoy your stay with us and be part of this growing community.</p>
+
+""","2021-04-06")}}
 
 ## Get to know Python
+
 Python :snake: is a popular and is an easy to learn, powerful programming language.
-It is used for many things, such as
+
+It is used for many things, such as:
+
 - Software Development
 - Web Application
 - Scripting
@@ -23,6 +33,7 @@ To immediately get access to a development environment [click here](https://repl
 ![repl.it image](assets/imgs/replit.png)
 
 ### Working locally
+
 If you are a little bit brave and interested in working locally on your laptop, you can set up the development environment with the programs listed below :wink:
 
 First ensure you have `git`, `VSCode` and `Python` (3.6+) installed, open up your terminal/command prompt and run the following
