@@ -2,7 +2,7 @@
 
 ## Problem
 
-Create a command line application using Python 3.6+ that allows you to create and search a database of documents using TF_IDF. The TF-IDF should be created using native python with no external libraries for the logic.
+Create a command line application using Python 3.6+ that allows you to create and search a database of documents using TF-IDF. The TF-IDF should be created using native python with no external libraries for the logic.
 Your code should be well documented with a docstrings, comments and a README describing how your program works, unit tests to ensure it works as expected, type annotations to allow other developers to understand how to help build upon your program and finally well formatted code (using Black).
 
 You should add a summary to your README that includes the next steps (dot points) and also the strengths and weaknesses of your program in its current state.
