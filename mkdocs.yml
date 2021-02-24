@@ -7,28 +7,29 @@ repo_name: "CapgeminiInventIDE/PyCap"
 nav:
   - Welcome: index.md
   - Courses:
-      - Introduction To Python:
-          - Summary: intro-to-python/summary.md
-          - Course 1: intro-to-python/course-1.md
-          - Course 2: intro-to-python/course-2.md
-          - Capstone Projects:
-              - Introduction: intro-to-python/capstone/intro.md
-              - Board game emulation: intro-to-python/capstone/board_game.md
-              - Interacting with external API's: intro-to-python/capstone/external_apis.md
-              - Encryption and secrets manager: intro-to-python/capstone/secrets.md
-              - Building a TODO list: intro-to-python/capstone/todo_list.md
-              - Scraping the web for data: intro-to-python/capstone/web_scraping.md
-              - Building a basic search engine: intro-to-python/capstone/cap_search.md
-      - Advanced Python:
-          - Course 1: advanced-python/course-1.md
+    - Introduction To Python:
+      - Summary: intro-to-python/summary.md
+      - Course 1: intro-to-python/course-1.md
+      - Course 2: intro-to-python/course-2.md
+      - Capstone Projects:
+        - Introduction: intro-to-python/capstone/intro.md
+        - Board game emulation: intro-to-python/capstone/board_game.md
+        - Interacting with external API's: intro-to-python/capstone/external_apis.md
+        - Encryption and secrets manager: intro-to-python/capstone/secrets.md
+        - Building a TODO list: intro-to-python/capstone/todo_list.md
+        - Scraping the web for data: intro-to-python/capstone/web_scraping.md
+        - Building a basic search engine: intro-to-python/capstone/cap_search.md
+    - Advanced Python:
+      - Course 1: advanced-python/course-1.md
   - Mentors: mentors.md
   - Certified Members: certified.md
   - Additional Info:
-      - Contributing: contributing.md
-      - Code of Conduct: code_of_conduct.md
-      - Changelog: changelog.md
-      - License: license.md
-      - About Us: about_us.md
+    - Contributing: contributing.md
+    - Code of Conduct: code_of_conduct.md
+    - Changelog: changelog.md
+    - License: license.md
+    - About Us: about_us.md
+
 
 theme:
   name: material
