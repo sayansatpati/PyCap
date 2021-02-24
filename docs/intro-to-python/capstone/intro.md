@@ -9,4 +9,4 @@ Add in info here on the process, mentors etc
 - [Encryption and secrets manager](./secrets.md)
 - [Building a TODO list](./todo_list.md)
 - [Scraping the web for data](./web_scraping.md)
-- [Finding important words in documents](./tf_idf.md)
+- [Building a basic search engine](./cap_search.md)

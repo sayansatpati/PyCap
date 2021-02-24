@@ -1,4 +1,4 @@
-# Application - 🕵️ Finding important words in documents
+# Application - 🕵️ Building a basic search engine
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
@@ -17,7 +17,7 @@ This program requires the following Python packages
 They can be installed manually or using a pipenv with the supplied `Pipfile` by running the following
 
 ```bash
-cd tf_idf
+cd cap_search
 pipenv install
 ```
 

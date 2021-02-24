@@ -1,4 +1,4 @@
-# PyCap Intro to Python Capstone - Finding Important Words in Documents
+# PyCap Intro to Python Capstone - Building a basic search engine
 
 Capstone example of applying the learnings from PyCap intro to Python
 
