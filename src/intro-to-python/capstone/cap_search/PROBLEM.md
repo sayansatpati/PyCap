@@ -11,7 +11,7 @@ A list of operations that your program should support, as well as how we expect 
 | Operation                                            | Usage | Required |
 |------------------------------------------------------|-------|----------|
 | Upload a document to the search engine database. | `python cap_search.py upload "/path/to/document.txt"` | TRUE |
-| Upload all .txt documents in a directory to the search engine database. | `python cap_search.py upload --directory "/path/to/directory"` | TRUE |
+| Upload all .txt documents in a directory to the search engine database. | `python cap_search.py upload-directory "/path/to/directory"` | TRUE |
 | Upload a newer version of an existing document to the search engine database. | `python cap_search.py update "/path/to/document.txt"` | TRUE |
 | Get a document from the search engine database to the current directory. | `python cap_search.py get "document_name"` | TRUE |
 | Get a document from the search engine database to the specified directory. | `python cap_search.py get "document_name" --path /path/to/output/document.txt` | TRUE |
