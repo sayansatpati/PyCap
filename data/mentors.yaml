@@ -1,0 +1,32 @@
+mentors:
+  - name: Andy Challis
+    github: ghandic
+    description: Andy is a full stack data scientist, having experience in technologies such as <em>AWS/GCP, React/Frontend, Docker/Kubernetes, Python/Javascript/Go/Swift</em> and many libraries within such as <em>PyTorch/Flask/FastAPI/Pandas/SkLearn.</em><br><br> He drives rapid innovation of projects for clients by leveraging data assets and data science techniques and is the lead for the Capgemini Australia Python Community 2019-2021
+    courses:
+      - intro-to-python/course-1
+      - intro-to-python/course-2
+  - name: Tim Sanderson
+    github: TimSando
+    description: Tim is a data scientist whose primary experience lies with python, docker, MLFlow and python libraries like FastAPI, Pandas and Pytorch.<br><br> He enjoys bringing data, code and people together to drive unique solutions
+    courses:
+      - intro-to-python/course-1
+  - name: Eromanga Adermann
+    github: erospace14
+    description: Ero is a Consultant within the Invent-IDE capability. She has a strong technical problem-solving background from her doctorate degree in physics, where she studied dark energy and found new ways to uncover its properties. She also has experience building innovative solutions to real-world problems, through her participation in GovHacks 2019 and the ACS Hackathon 2020 (both of which she won awards for). She has developed scripts to automate the distribution of employee dashboards, process and restructure employee data, and is currently part of the team building an AI document processing ecosystem for the Federal Government.
+    courses:
+      - intro-to-python/course-1
+  - name: Palang Anivan
+    github: LungLung123
+    description: Palang has a background in Software Engineering and is passionate about everything technology. Always down for some good old hackathons, keeping things exciting and try to look for a new way to apply new innovation to existing problems or learn about new-leading edge technology, specifically in emerging technology or anything cool really :D.
+    courses:
+      - intro-to-python/course-1
+  - name: Nima Namjouyan
+    github: nimanamjouyan
+    description: A Data scientist passionate about Python, image processing and computer vision. Love topics in image/doc classification and multiprocessing.
+    courses:
+      - intro-to-python/course-1
+  - name: Lockie Richter
+    github: lockieRichter
+    description: Lockie is a Software Engineer with experience in C++, Java, Python and small amounts of React. He is passionate about writing good code that is maintainable, functional and extensible.
+    courses:
+      - intro-to-python/course-1

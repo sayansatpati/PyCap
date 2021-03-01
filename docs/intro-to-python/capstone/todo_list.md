@@ -10,7 +10,7 @@ links:
   - '[Capstone template code](https://github.com/CapgeminiInventIDE/PyCap/tree/main/src/intro-to-python/capstone/todo_list){target=_blank}'
 ---
 
-{{ course_summary(title, date, mentors=mentors, tags=tags, links=links) }}
+{{ course_summary(title, date, mentors=mentors, links=links) }}
 
 ## Problem
 
