@@ -13,3 +13,4 @@ If you're unable to reach your assigned mentor or just have a general Python que
 - [Encryption and secrets manager](./secrets.md)
 - [Building a TODO list](./todo_list.md)
 - [Scraping the web for data](./web_scraping.md)
+- [Building a basic search engine](./cap_search.md)

@@ -9,3 +9,4 @@ We have curated a few different capstone project ideas for you to try out, along
 - [Encryption and secrets manager](./secrets/PROBLEM.md)
 - [Building a TODO list](./todo_list/PROBLEM.md)
 - [Scraping the web for data](./web_scraping/PROBLEM.md)
+- [Building a basic search engine](./cap_search/README.md)

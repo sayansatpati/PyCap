@@ -32,6 +32,7 @@ nav:
         - Encryption and secrets manager: intro-to-python/capstone/secrets.md
         - Building a TODO list: intro-to-python/capstone/todo_list.md
         - Scraping the web for data: intro-to-python/capstone/web_scraping.md
+        - Building a basic search engine: intro-to-python/capstone/cap_search.md
     # - Advanced Python:
     #   - Course 1: advanced-python/course-1.md
   - Mentors: mentors.md
@@ -42,7 +43,7 @@ nav:
     - Changelog: changelog.md
     - License: license.md
     - About Us: about_us.md
-  
+
 
 theme:
   name: material
