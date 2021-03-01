@@ -9,8 +9,22 @@ nav:
   - Courses:
     - Introduction To Python:
       - Summary: intro-to-python/summary.md
-      - Course 1: intro-to-python/course-1.md
-      - Course 2: intro-to-python/course-2.md
+      - Week 1:
+        - Python Fundamentals & Data Structures: intro-to-python/week-1.0.md
+        - Using User Defined, Internal and External Libraries: intro-to-python/week-1.1.md
+      - Week 2:
+        - Input/Output: intro-to-python/week-2.0.md
+        - Object Oriented Programming: intro-to-python/week-2.1.md
+      - Week 3:
+        - Workflow - Unit Testing: intro-to-python/week-3.0.md
+        - Workflow - Formatting: intro-to-python/week-3.1.md
+        - Workflow - Type Hints: intro-to-python/week-3.2.md
+      - Week 4:
+        - Handling Errors: intro-to-python/week-4.0.md
+        - Building Commandline Applications: intro-to-python/week-4.1.md
+      - Week 5:
+        - Workflow - Version Control: intro-to-python/week-5.0.md
+        - Building an Open Source Application: intro-to-python/week-5.1.md
       - Capstone Projects:
         - Introduction: intro-to-python/capstone/intro.md
         - Board game emulation: intro-to-python/capstone/board_game.md
@@ -18,8 +32,8 @@ nav:
         - Encryption and secrets manager: intro-to-python/capstone/secrets.md
         - Building a TODO list: intro-to-python/capstone/todo_list.md
         - Scraping the web for data: intro-to-python/capstone/web_scraping.md
-    - Advanced Python:
-      - Course 1: advanced-python/course-1.md
+    # - Advanced Python:
+    #   - Course 1: advanced-python/course-1.md
   - Mentors: mentors.md
   - Certified Members: certified.md
   - Additional Info:
