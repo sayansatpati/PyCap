@@ -15,7 +15,9 @@ Come and join the Capgemini Python community! PyCap
 This course aims to provide you with the knowledge to begin using Python on a project or for your own personal
 projects. We will delve into the history of programming and explain why it is best to design software in a
 certain way. The course will also include on-project experience from a variety of different backgrounds,
-with use cases from across the broader Capgemini group.
+with use cases from across the broader Capgemini group. 
+
+There are links to courses and materials to help you in your journey of mastering python as well as problems to test your understanding and hone your practical knowledge.
 
 ## Course structure
 
