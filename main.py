@@ -6,7 +6,7 @@ def define_env(env):
 
         rows = [
             f"| Created date | { date } |",
-            f"| Previous knowledge | { prev_know } |" if prev_know is not None else "None required",
+            f"| Previous knowledge | { prev_know if prev_know is not None else 'None required'} |",
             f"""| What you will learn | {''.join([f'<div class="what-you-will-learn">{skill}</div>' for skill in skills])} |"""
             if skills is not None
             else "",
