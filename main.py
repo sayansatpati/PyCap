@@ -25,9 +25,9 @@ def define_env(env):
 |-----|-------|
 {rows}
 
-## Description
+{'## Description' if description else ''}
 
-{f'<div style="text-align: justify"> { description } </div>'}
+{f'<div style="text-align: justify"> { description } </div>' if description else ''}
 """
 
     @env.macro
