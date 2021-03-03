@@ -33,16 +33,16 @@ You should write your code so that you can encrypt and decrypt messages in the c
 
 | Operation                                            | Usage | Required |
 |------------------------------------------------------|-------|----------|
-| Encode a message using a Hex cipher | `python encrypt.py hex encode "<MESSAGE>"` | TRUE |
-| Decode a message using a Hex cipher | `python encrypt.py hex decode "<ENCRYPTED-MESSAGE>"` | TRUE |
-| Encode a message using a AtBash cipher | `python encrypt.py atbash encode "<MESSAGE>"` | TRUE |
-| Decode a message using a AtBash cipher | `python encrypt.py atbash decode "<ENCRYPTED-MESSAGE>"` | TRUE |
-| Encode a message using a Caesar cipher | `python encrypt.py caesar encode 3 "<MESSAGE>"` | TRUE |
-| Decode a message using a Caesar cipher | `python encrypt.py caesar decode 3 "<ENCRYPTED-MESSAGE>"` | TRUE |
-| Encode a message using a Keyword cipher | `python encrypt.py keyword encode "<KEYWORD>" "<MESSAGE>"` | TRUE |
-| Decode a message using a Keyword cipher | `python encrypt.py keyword decode "<KEYWORD>" "<ENCRYPTED-MESSAGE>"` | TRUE |
-| Encode a message using a Vigenère cipher | `python encrypt.py vigenere encode "<KEYWORD>" "<MESSAGE>"` | TRUE |
-| Decode a message using a Vigenère cipher | `python encrypt.py vigenere decode "<KEYWORD>" "<ENCRYPTED-MESSAGE>"` | TRUE |
+| Encode a message using a Hex cipher | `python secrets.py hex encode "<MESSAGE>"` | TRUE |
+| Decode a message using a Hex cipher | `python secrets.py hex decode "<ENCRYPTED-MESSAGE>"` | TRUE |
+| Encode a message using a AtBash cipher | `python secrets.py atbash encode "<MESSAGE>"` | TRUE |
+| Decode a message using a AtBash cipher | `python secrets.py atbash decode "<ENCRYPTED-MESSAGE>"` | TRUE |
+| Encode a message using a Caesar cipher | `python secrets.py caesar encode 3 "<MESSAGE>"` | TRUE |
+| Decode a message using a Caesar cipher | `python secrets.py caesar decode 3 "<ENCRYPTED-MESSAGE>"` | TRUE |
+| Encode a message using a Keyword cipher | `python secrets.py keyword encode "<KEYWORD>" "<MESSAGE>"` | TRUE |
+| Decode a message using a Keyword cipher | `python secrets.py keyword decode "<KEYWORD>" "<ENCRYPTED-MESSAGE>"` | TRUE |
+| Encode a message using a Vigenère cipher | `python secrets.py vigenere encode "<KEYWORD>" "<MESSAGE>"` | TRUE |
+| Decode a message using a Vigenère cipher | `python secrets.py vigenere decode "<KEYWORD>" "<ENCRYPTED-MESSAGE>"` | TRUE |
 
 ## Optional Extras
 
