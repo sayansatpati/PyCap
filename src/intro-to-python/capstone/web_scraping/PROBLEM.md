@@ -34,7 +34,7 @@ A list of operations that your app should support, as well as how we expect them
 - When in doubt, **Research** and **Google** are your friends :sunglasses:
 
 ## Discliamer
-Certain websites due impose restrictions and on scraping/gathering their data and information programmically. 
+Certain websites do impose restrictions and on scraping/gathering their data and information programmically. 
 Due to the simplicity of our scraper, if the script doesn't work and your code looks fine, it could mean that the sites contain levels of security to prevent
 scraping.
 
