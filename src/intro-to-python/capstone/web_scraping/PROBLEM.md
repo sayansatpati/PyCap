@@ -19,6 +19,19 @@ A list of operations that your app should support, as well as how we expect them
 | Begin Scraping | | `"Starting Scraping"` |
 | Finish Scraping | | `"Successfully Scraped the "<Site URL>""` |
 
+## Suggested URL for Webscraping
+
+- https://www2.asx.com.au/markets/trade-our-cash-market/todays-announcements
+- ASX URL of the companies you are interested in (Hint, you can store a list of company in a list)
+- https://au.indeed.com/jobs?q=data+scientist&l=Sydney+NSW
+- Indeed URL with your job and city queried (Hint, you can store a list of job in a list)
+
+## Suggested Library
+
+- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) 
+- [Scrapy](https://scrapy.org/)
+- [Selenium](https://selenium-python.readthedocs.io/)
+
 ## Discliamer
 Certain websites due impose restrictions and on scraping/gathering their data and information programmically. 
 Due to the simplicity of our scraper, if the script doesn't work and your code looks fine, it could mean that the sites contain levels of security to prevent
