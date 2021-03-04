@@ -39,7 +39,7 @@ scraping.
 
 These sites can also have Term and Conditions impose restriction on the automation data gathering tool. 
 Since you are not using them for commercial purpose, you should be in a clear. However always check for TOCs in the future
-# Example:
+### Example of TOCs:
 ![Seek's TOCs](../../assets/imgs/web_scrap_TOS.jpg)
 
 ## Optional Extras
