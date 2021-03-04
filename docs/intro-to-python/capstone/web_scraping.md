@@ -44,6 +44,7 @@ A list of operations that your app should support, as well as how we expect them
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) 
 - [Scrapy](https://scrapy.org/)
 - [Selenium](https://selenium-python.readthedocs.io/)
+- When in doubt, **Research** and **Google** are your friends :sunglasses:
 
 ## Discliamer
 Certain websites due impose restrictions and on scraping/gathering their data and information programmically. 
