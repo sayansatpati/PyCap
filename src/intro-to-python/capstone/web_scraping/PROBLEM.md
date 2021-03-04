@@ -13,11 +13,11 @@ You should add a summary to your README that includes the next steps (dot points
 A list of operations that your app should support, as well as how we expect them to show up can be found in the table below.
 
 
-| Operation                                            | Usage |
-|------------------------------------------------------|-------|
-| Start a scaping from the provided link                      | `"python3 webscraper.py "<Site URL>""`      |
-| Begin Scraping | `"Starting Scraping"`      |
-| Finish Scraping | `"Successfully Scraped the "<Site URL>""`      |
+| Operation                                            | Usage | Description |
+|------------------------------------------------------|-------|-------------|
+| Start a scaping from the provided link | `"python3 webscraper.py "<Site URL>""` |
+| Begin Scraping | | `"Starting Scraping"` |
+| Finish Scraping | | `"Successfully Scraped the "<Site URL>""` |
 
 ## Discliamer
 Certain websites due impose restrictions and on scraping/gathering their data and information programmically. 
@@ -33,4 +33,4 @@ Since you are not using them for commercial purpose, you should be in a clear. H
 
 - Enhance the scaper further and save the information out into csv file
 - Utilise the data and create an application from it 
-- Example for Advance usage: Algorithm Trading on Stock or Resume Skill Matching for job posting
+- Example for Advance usage: Algorithm Trading on stock information or Resume Skill Matching for job posting
