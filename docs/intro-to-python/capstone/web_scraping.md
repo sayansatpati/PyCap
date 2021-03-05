@@ -44,8 +44,8 @@ A list of operations that your app should support, as well as how we expect them
 | Operation                                            | Usage | Commandline Output |
 |------------------------------------------------------|-------|-------------|
 | Start the scaping process on the provided link | `"python3 webscraper.py "<Site URL>""` |
-| Begin Scraping | | Starting Scraping" |
-| Finish Scraping | | Successfully Scraped the <Site URL> |
+| Begin Scraping | | Starting Scraping "Site URL" |
+| Finish Scraping | | Successfully Scraped the "Site URL" |
 | Start analysis for ASX | `"python3 analysis.py asx""` | Beginning Analysis for ASX data |
 | Finish analysis for ASX | |  Successfully Analysed ASX data |
 | Start analysis for indeed | `"python3 analysis.py indeed""` | Beginning Analysis for indeed data |
