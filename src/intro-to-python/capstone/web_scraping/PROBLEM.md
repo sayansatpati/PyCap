@@ -16,7 +16,7 @@ As it can be observe that some of the information can already be pick up such as
 
 ![indeed's element](images/indeed_inspected.png)
 
-We can also observe from inspecting the page, we found out that the salary information is under a class "SalaryText", we can use to implementing our scraper. 
+We can also observe from inspecting the page, we found out that the salary information is under a class "SalaryText", which we can use to implement our scraper. 
 ### Basic Data Analysis
 We will also introduce some basic data analysis on the the scraped data as well. 
 - With ASX data, we will see if we could determine the change in stock price based on the ASX Today Annoucement. 
