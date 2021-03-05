@@ -13,10 +13,10 @@ links:
 
 # PyCap Intro to Python Capstone - Scraping the web for data
 
-Capstone example of applying the learnings from PyCap intro to Python and create a web scraper to programmatically gather information 
+Capstone example of applying the learnings from PyCap intro to Python and create a web scraper to programmatically gather and analyse information 
 ## Problem
 ### Introduction to Web Scraping 
-Create a basic commandline application using Python 3.6+ that allows a user scrap an information from various website. 
+Create a basic commandline application using Python 3.6+ that allows a user scrap an information from various website and save out the information to be use later. 
 In this exercise we will scrape 2 website, stock information from ASX and job postings on indeed.
 #### Starting point for Web Scraping
 The starting step for webscraper is to familiarise yourself with the website you want to gather information from. These steps can include examining the website's URL
@@ -30,7 +30,8 @@ As it can be observe that some of the information can already be pick up such as
 
 We can also observe from inspecting the page, we found out that the salary information is under a class "SalaryText", which we can use to implement our scraper. 
 ### Basic Data Analysis
-We will also introduce some basic data analysis on the the scraped data as well. 
+We will also introduce some basic data analysis on the the scraped data as well.
+To perform the analsys, we will have to create a basic commandline application using Python 3.6+ that analyses our scraped data from. 
 - With ASX data, we will see if we could determine the change in stock price based on the ASX Today Annoucement. 
 - With Indeed data, we will see if we can filter our scraped data and display jobs within our specified salary.    
 ## Coding Standard and Practice
@@ -40,12 +41,15 @@ You should add a summary to your README that includes the next steps (dot points
 A list of operations that your app should support, as well as how we expect them to show up can be found in the table below.
 
 
-| Operation                                            | Usage | Description |
+| Operation                                            | Usage | Commandline Output |
 |------------------------------------------------------|-------|-------------|
-| Start a scaping from the provided link | `"python3 webscraper.py "<Site URL>""` |
-| Begin Scraping | | `"Starting Scraping"` |
-| Finish Scraping | | `"Successfully Scraped the "<Site URL>""` |
-
+| Start the scaping process on the provided link | `"python3 webscraper.py "<Site URL>""` |
+| Begin Scraping | | Starting Scraping" |
+| Finish Scraping | | Successfully Scraped the "<Site URL>" |
+| Start analysis for ASX | `"python3 analysis.py asx""` | Beginning Analysis for ASX data |
+| Finish analysis for ASX | |  Successfully Analysed ASX data |
+| Start analysis for indeed | `"python3 analysis.py indeed""` | Beginning Analysis for indeed data |
+| Finish analysis for indeed | |  Successfully Analysed indeed data |
 ## Suggested URL for Webscraping
 
 - https://www2.asx.com.au/markets/trade-our-cash-market/todays-announcements
