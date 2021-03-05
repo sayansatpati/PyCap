@@ -14,12 +14,26 @@ links:
 # PyCap Intro to Python Capstone - Scraping the web for data
 
 Capstone example of applying the learnings from PyCap intro to Python and create a web scraper to programmatically gather information 
-
 ## Problem
+### Introduction to Web Scraping 
+Create a basic commandline application using Python 3.6+ that allows a user scrap an information from various website. 
+In this exercise we will scrape 2 website, stock information from ASX and job postings on indeed.
+#### Starting point for Web Scraping
+The starting step for webscraper is to familiarise yourself with the website you want to gather information from. These steps can include examining the website's URL
+and inspecting the website (Press F12 on your keyboard) for the element you're interested in.
+##### Example
+![indeed's URL](../../assets/imgs/indeed_url.png)
 
-Create a basic commandline application using Python 3.6+ that allows a user scrap an information from various website. In this exercise we will scrape
-2 website, stock information from ASX and job postings on indeed.
+As it can be observe that some of the information can already be pick up such as the query for data scientist and location of Sydney, NSW
 
+![indeed's element](../../assets/imgs/indeed_inspected.png)
+
+We can also observe from inspecting the page, we found out that the salary information is under a class "SalaryText", we can use to implementing our scraper. 
+### Basic Data Analysis
+We will also introduce some basic data analysis on the the scraped data as well. 
+- With ASX data, we will see if we could determine the change in stock price based on the ASX Today Annoucement. 
+- With Indeed data, we will see if we can filter our scraped data and display jobs within our specified salary.    
+## Coding Standard and Practice
 Your code should be well documented with a docstrings, comments and a README describing how your program works, unit tests to ensure it works as expected and type annotations and finally well formatted using Black. This is so other developers can understand how to help build upon your program.
 
 You should add a summary to your README that includes the next steps (dot points) and also the strengths and weaknesses of your program in its current state.
