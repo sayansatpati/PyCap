@@ -35,7 +35,7 @@ To perform the analysis, we will have to create a basic commandline application 
 - With ASX data, we will see if we can determine the change in stock price based on the ASX Today Announcement. 
 - With Indeed data, we will see if we can filter our scraped data and display jobs within our specified salary range.    
 
-### Starting point for Data Analysis (ASX)
+### Example starting point for Data Analysis with ASX
 We will be talking about some of the steps that would let you start on analysing the change in stock price.
 - We need to identify which stocks have their announcement today, we can use our web scraper to extract the listed stocks from the page
 
