@@ -12,7 +12,9 @@ nav:
       - Project:
         - Tasks: intro-to-python/project/tasks.md
       - Week 1:
-        - Python Fundamentals & Data Structures: intro-to-python/week-1.0.md
+        - Data Structures: intro-to-python/week-1.0.md
+        - Functions: intro-to-python/week-1.1.md
+        - Control Flow: intro-to-python/week-1.2.md
       - Week 2:
         - Using User Defined, Internal and External Libraries: intro-to-python/week-2.0.md
         - Object Oriented Programming: intro-to-python/week-2.1.md
