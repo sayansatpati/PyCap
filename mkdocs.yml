@@ -77,11 +77,25 @@ markdown_extensions:
       custom_checkbox: true
   - attr_list
 
+extra:
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/CapgeminiInventIDE
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/company/capgemini-invent
+  - icon: fontawesome/solid/globe
+    link: https://www.capgemini.com/service/invent/
+  - icon: fontawesome/brands/docker
+    link: https://hub.docker.com/orgs/capgeminiinventide
+  - icon: fontawesome/brands/discord
+    link: https://discord.gg/rQcMtVE
+  - icon: fontawesome/brands/instagram
+    link: https://www.instagram.com/capgeminiinvent/
+
 plugins:
   - search
   - macros:
       include_yaml:
         - data/certifications.yaml
         - data/mentors.yaml
-        - data/social.yaml
         - data/maintainer.yaml
