@@ -13,10 +13,10 @@ nav:
         - Tasks: intro-to-python/project/tasks.md
       - Week 1:
         - Python Fundamentals & Data Structures: intro-to-python/week-1.0.md
-        - Using User Defined, Internal and External Libraries: intro-to-python/week-1.1.md
       - Week 2:
-        - Input/Output: intro-to-python/week-2.0.md
+        - Using User Defined, Internal and External Libraries: intro-to-python/week-2.0.md
         - Object Oriented Programming: intro-to-python/week-2.1.md
+        - Input/Output: intro-to-python/week-2.2.md
       - Week 3:
         - Workflow - Unit Testing: intro-to-python/week-3.0.md
         - Workflow - Formatting: intro-to-python/week-3.1.md
