@@ -30,8 +30,8 @@ A list of operations that your app should support, as well as how we expect them
 
 | Operation                                            | Usage |
 |------------------------------------------------------|-------|
-| Start the scaping process (This should use cached files if they exist) | `python3 indeed.py scrape` |
-| Start the scaping process and save the response (scraped data) into local file | `python3 indeed.py scrape --no-cache`|
+| Start the scaping process (This should use cached files if they exist and store them if they dont already exist) | `python3 indeed.py scrape` |
+| Start the scaping process but ignore the cached data and force scrape from the indeed website | `python3 indeed.py scrape --no-cache`|
 | Extract all job postings based on the location Australia | `python3 indeed.py filter --location "Australia` |
 | Extract all job postings based on the company rating of 3 and above and location Australia | `python3 indeed.py filter --rating 3 --location "Australia"`|
 | Extract all job postings based on the salary range greater than $65000 and location Australia | `python3 indeed.py filter --salary 65000 --location "Australia"`|
