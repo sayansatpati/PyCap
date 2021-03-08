@@ -11,31 +11,24 @@ links:
 
 {{ course_summary(title, date, mentors=mentors, links=links) }}
 
-# PyCap Intro to Python Capstone - Scraping the web for data
-
 Capstone example of applying the learnings from PyCap intro to Python and create a web scraper to programmatically gather and analyse information
 
 ## Problem
 
-### Introduction to Web Scraping
-
 Create a basic commandline application using Python 3.6+ that allows a user scrap an information from various website.
 In this exercise we will scrape job postings from indeed website.
 
-#### Starting point for Web Scraping
+### Starting point for Web Scraping
 
-The starting step for webscraper is to familiarise yourself with the website you want to gather information from. These steps can include examining the website's URL
-and inspecting the website using browser's developer tools.
+The starting step for building a webscraper is to familiarise yourself with the website you want to gather information from. These steps can include examining the website's URL and inspecting the website using browser's developer tools.
 
-##### Example
+#### Example
 
 ![indeed's URL](../../assets/imgs/indeed_url.png)
 
-### Basic Data Analysis
+### Caching and Filtering
 
-We will also introduce some basic data analysis on the the scraped data.
-To perform the analysis, we will have to create a basic commandline application using Python 3.6+ that analyses our scraped data:
-
+- You should by default cache any data you scrape - this will allow you to run your filtering offline and also help to limit your requests you make to the website (which they can ban your IP from if you make too many requests)
 - With Indeed data, we will see if we can filter our scraped data and display jobs within our specified salary range and industry within Australia.
 
 ## Coding Standard and Practice
@@ -43,18 +36,18 @@ To perform the analysis, we will have to create a basic commandline application 
 Your code should be well-documented with a docstrings, comments and a README describing how your program works, unit tests to ensure it works as expected and type annotations and finally well formatted using Black. This is so other developers can understand how to help build upon your program.
 
 You should add a summary to your README that includes the next steps (dot points) and also the strengths and weaknesses of your program in its current state.
+
 A list of operations that your app should support, as well as how we expect them to show up can be found in the table below.
 
 | Operation                                            | Usage |
 |------------------------------------------------------|-------|
-| Start the scaping process| `"python3 webscraper.py --no-cache"` |
-| Start the scaping process and save the response (scraped data) into local file | `"python3 webscraper.py --cache"`|
-| Extract all job postings based on the location Australia | `"python3 webscraper.py --location "Australia"` |
-| Extract all job postings based on the company rating of 3 and above and location Australia | `"python3 webscraper.py --rating "3" --location "Australia""`|
-| Extract all job postings based on the salary range greater than $65000 and location Australia | `"python3 webscraper.py --salary "65000" --location "Australia""`|
-| Extract all job postings based on the job title "Consulting" and location Australia | `"python3 webscraper.py --job "Consulting" --location "Australia""`|
-| Save the jobs into json file | `"python3 webscraper.py --job "Consulting" --location "Australia" --saved"` |
-| Finish Scraping | Successfully Web Scraped ![Example of scraped data from indeed](../../assets/imgs/job_scraped.jpg) |
+| Start the scaping process (This should use cached files if they exist) | `python3 indeed.py scrape` |
+| Start the scaping process and save the response (scraped data) into local file | `python3 indeed.py scrape --no-cache`|
+| Extract all job postings based on the location Australia | `python3 indeed.py filter --location "Australia` |
+| Extract all job postings based on the company rating of 3 and above and location Australia | `python3 indeed.py filter --rating 3 --location "Australia"`|
+| Extract all job postings based on the salary range greater than $65000 and location Australia | `python3 indeed.py filter --salary 65000 --location "Australia"`|
+| Extract all job postings based on the job title "Consulting" and location Australia | `python3 indeed.py filter --job "Consulting" --location "Australia"`|
+| Save the jobs into json file called "jobs.json" | `python3 indeed.py filter --job "Consulting" --location "Australia" --save "jobs.json"` |
 
 ## Suggested URLs for Webscraping
 
