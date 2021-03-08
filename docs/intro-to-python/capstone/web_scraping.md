@@ -49,11 +49,11 @@ A list of operations that your app should support, as well as how we expect them
 |------------------------------------------------------|-------|
 | Start the scaping process| `"python3 webscraper.py --no-cache"` |
 | Start the scaping process and save the response (scraped data) into local file | `"python3 webscraper.py --cache"`|
-| Extract all job postings based on the location Australia | `"python3 webscraper.py --location "Austrlaia"` |
-| Extract all job postings based on the company rating of 3 and above and location Australia | `"python3 webscraper.py --rating "3" --location "Austrlaia""`|
-| Extract all job postings based on the salary range greater than $65000 and location Australia | `"python3 webscraper.py --salary "65000" --location "Austrlaia""`|
-| Extract all job postings based on the job title "Consulting" and location Australia | `"python3 webscraper.py --job "Consulting" --location "Austrlaia""`|
-| Save the jobs into json file | `"python3 webscraper.py --job "Consulting" --location "Austrlaia" --saved"` |
+| Extract all job postings based on the location Australia | `"python3 webscraper.py --location "Australia"` |
+| Extract all job postings based on the company rating of 3 and above and location Australia | `"python3 webscraper.py --rating "3" --location "Australia""`|
+| Extract all job postings based on the salary range greater than $65000 and location Australia | `"python3 webscraper.py --salary "65000" --location "Australia""`|
+| Extract all job postings based on the job title "Consulting" and location Australia | `"python3 webscraper.py --job "Consulting" --location "Australia""`|
+| Save the jobs into json file | `"python3 webscraper.py --job "Consulting" --location "Australia" --saved"` |
 | Finish Scraping | Successfully Web Scraped ![Example of scraped data from indeed](../../assets/imgs/job_scraped.jpg) |
 
 ## Suggested URLs for Webscraping
