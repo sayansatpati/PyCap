@@ -24,11 +24,15 @@ To perform the analysis, we will have to create a basic commandline application 
 
 ### Starting point for Data Analysis (ASX)
 We will be talking about some of the steps that would let you start on analysing the change in stock price.
-- We need to identify which stocks have their announcement today, we can use our web scraper to extract the listed stocks from the page
+- We need to identify which stocks have their announcement today, we can use our web scraper to extract the listed stocks from the page.
+
 ![Today's Announcement](images/today_annoucement.jpg)
-- Then we can use the our extracted stocks and use the web scraper to fetch the today price and today's change from the selected stock pages
+
+- Then we can use the our extracted stocks and use the web scraper to fetch the today price and today's change from the selected stock pages.
+
 ![Example of stock page](images/stock_price.jpg)
-- We can then determine if there is any correlation between the announcement and the change in stock price for today
+
+- We can then determine if there is any correlation between the announcement and the change in stock price for today.
 
 ## Coding Standard and Practice
 Your code should be well-documented with a docstrings, comments and a README describing how your program works, unit tests to ensure it works as expected and type annotations and finally well formatted using Black. This is so other developers can understand how to help build upon your program.
