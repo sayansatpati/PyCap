@@ -85,8 +85,9 @@ Since you are not using them for commercial purposes, you should be alright. How
 ## Optional Activity (Bonus)
 With ASX data, we will see if we can determine the change in stock price based on the ASX Today Announcement. 
 
-### Data Analysis with ASX
-We will be talking about some of the steps that would let you start on analysing the change in stock price. Hint: ASX is a dynamic website, it is highly recommend that you check out Selenium library for your solution
+### Web Scraping with ASX
+We will be talking about some of the steps that would let you start on analysing the change in stock price. 
+Hint: ASX is a dynamic website, it is highly recommend that you check out Selenium library for your solution
 - We need to identify which stocks have their announcement today, we can use our web scraper to extract the listed stocks from the page
 
 ![Today's Announcement](../../assets/imgs/today_annoucement.jpg)
