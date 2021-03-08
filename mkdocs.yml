@@ -9,6 +9,8 @@ nav:
   - Courses:
     - Introduction To Python:
       - Summary: intro-to-python/summary.md
+      - Project:
+        - Tasks: intro-to-python/project/tasks.md
       - Week 1:
         - Python Fundamentals & Data Structures: intro-to-python/week-1.0.md
         - Using User Defined, Internal and External Libraries: intro-to-python/week-1.1.md
@@ -63,6 +65,7 @@ markdown_extensions:
   - admonition
   - codehilite:
       guess_lang: false
+  - pymdownx.details
   - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
