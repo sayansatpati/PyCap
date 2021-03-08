@@ -25,7 +25,7 @@ A list of operations that your app should support, as well as how we expect them
 
 
 | Operation                                            | Usage |
-|------------------------------------------------------|-------|-------------|
+|------------------------------------------------------|-------|
 | Start the scaping process on the provided link | `"python3 webscraper.py "<Site URL>""` |
 | Extract all job title based on the location Australia | |
 | Extract company name based on the location Australia | |
@@ -33,7 +33,7 @@ A list of operations that your app should support, as well as how we expect them
 | Extract salary range based on the location Australia | |
 | Filter the scraped data based on the industry - "Consulting" | |
 | Save the jobs into CSV file | |
-| Finish Scraping | | Successfully Scraped the "Site URL" ![Example of scraped data from indeed](images/job_scraped.jpg) |
+| Finish Scraping |Successfully Scraped the "Site URL" ![Example of scraped data from indeed](images/job_scraped.jpg) |
 ## Suggested URLs for Webscraping
 
 - https://www2.asx.com.au/markets/trade-our-cash-market/todays-announcements
