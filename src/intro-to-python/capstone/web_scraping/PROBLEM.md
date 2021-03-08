@@ -32,7 +32,7 @@ A list of operations that your app should support, as well as how we expect them
 | Extract company rating based on the location Australia | |
 | Extract salary range based on the location Australia | |
 | Filter the scraped data based on the industry - "Consulting" | |
-| Save the jobs into CSV file | |
+| Save the jobs into json file | |
 | Finish Scraping |Successfully Scraped the "Site URL" ![Example of scraped data from indeed](images/job_scraped.jpg) |
 ## Suggested URLs for Webscraping
 
@@ -47,6 +47,11 @@ A list of operations that your app should support, as well as how we expect them
 - [Scrapy](https://scrapy.org/)
 - [Selenium](https://selenium-python.readthedocs.io/)
 - When in doubt, **Research** and **Google** are your friends :sunglasses:
+
+## Suggested Additional Learning Resources
+
+- [Beautiful Soup: Build a Web Scraper With Python](https://realpython.com/beautiful-soup-web-scraper-python/#challenges-of-web-scraping)
+- [Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
 
 ## Disclaimer
 Certain websites impose restrictions on scraping/gathering their data and information programmatically. 

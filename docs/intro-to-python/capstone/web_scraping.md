@@ -39,12 +39,12 @@ A list of operations that your app should support, as well as how we expect them
 | Operation                                            | Usage |
 |------------------------------------------------------|-------|
 | Start the scaping process on the provided link | `"python3 webscraper.py "<Site URL>""` |
-| Extract all job title based on the location query | |
-| Extract company name based on the location query | |
-| Extract company rating based on the location query | |
-| Extract salary range based on the location query | |
+| Extract all job title based on the location Australia | |
+| Extract company name based on the location Australia | |
+| Extract company rating based on the location Australia | |
+| Extract salary range based on the location Australia | |
 | Filter the scraped data based on the industry - "Consulting" | |
-| Save the jobs into CSV file | |
+| Save the jobs into json file | |
 | Finish Scraping | Successfully Scraped the "Site URL" ![Example of scraped data from indeed](../../assets/imgs/job_scraped.jpg) |
 ## Suggested URLs for Webscraping
 
@@ -59,6 +59,12 @@ A list of operations that your app should support, as well as how we expect them
 - [Scrapy](https://scrapy.org/)
 - [Selenium](https://selenium-python.readthedocs.io/)
 - When in doubt, **Research** and **Google** are your friends :sunglasses:
+
+## Suggested Additional Learning Resources
+
+- [Beautiful Soup: Build a Web Scraper With Python](https://realpython.com/beautiful-soup-web-scraper-python/#challenges-of-web-scraping)
+- [Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
+
 
 ## Disclaimer
 Certain websites impose restrictions on scraping/gathering their data and information programmatically. 
