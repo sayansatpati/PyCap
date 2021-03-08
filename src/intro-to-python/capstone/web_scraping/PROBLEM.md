@@ -9,11 +9,11 @@ In this exercise we will scrape 2 website, stock information from ASX and job po
 The starting step for webscraper is to familiarise yourself with the website you want to gather information from. These steps can include examining the website's URL
 and inspecting the website (Press F12 on your keyboard) for the element you're interested in.
 ##### Example
-![indeed's URL](../../assets/imgs/indeed_url.png)
+![indeed's URL](images/indeed_url.png)
 
 As it can be observe, some of the information can already be picked up such as the query for data scientist and location of Sydney, NSW.
 
-![indeed's element](../../assets/imgs/indeed_inspected.png)
+![indeed's element](images/indeed_inspected.png)
 
 We can also observe from inspecting the page that the salary information is under a class "SalaryText", which we can use to implement our scraper. 
 ### Basic Data Analysis
@@ -31,7 +31,7 @@ A list of operations that your app should support, as well as how we expect them
 | Operation                                            | Usage | Commandline Output |
 |------------------------------------------------------|-------|-------------|
 | Start the scaping process on the provided link | `"python3 webscraper.py "<Site URL>""` |
-| Finish Scraping | | Successfully Scraped the "Site URL" |
+| Finish Scraping | | Successfully Scraped the "Site URL" |Example of scraped data from indeed ![Example of scraped data from indeed](images/job_scraped) |
 | Start analysis for ASX | `"python3 analysis.py asx""` | Beginning Analysis for ASX data |
 | Finish analysis for ASX | |  Successfully Analysed ASX data |
 | Start analysis for indeed | `"python3 analysis.py indeed""` | Beginning Analysis for indeed data |
@@ -58,7 +58,7 @@ scraping.
 These sites can also have Terms and Conditions restricting on the automation data gathering tool. 
 Since you are not using them for commercial purposes, you should be alright. However always check for T&Cs in the future.
 ### Example of T&Cs:
-![Seek's T&Cs](../../assets/imgs/web_scrap_TOS.jpg)
+![Seek's T&Cs](images/web_scrap_TOS.jpg)
 
 ## Optional Extras
 
