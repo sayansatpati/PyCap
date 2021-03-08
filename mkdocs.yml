@@ -3,6 +3,7 @@ site_description: "Evolving repo of course material for the PyCap courses"
 site_url: "https://CapgeminiInventIDE.github.io/PyCap"
 repo_url: "https://github.com/CapgeminiInventIDE/PyCap"
 repo_name: "CapgeminiInventIDE/PyCap"
+edit_uri: "/CapgeminiInventIDE/PyCap/edit/main/docs/"
 
 nav:
   - Welcome: index.md
