@@ -54,7 +54,7 @@ A list of operations that your app should support, as well as how we expect them
 | Extract all job postings based on the salary range greater than $65000 and location Australia | `"python3 webscraper.py --salary "65000" --location "Austrlaia""`|
 | Extract all job postings based on the job title "Consulting" and location Australia | `"python3 webscraper.py --jobn "Consulting" --location "Austrlaia""`|
 | Save the jobs into json file | `"python3 webscraper.py --jobn "Consulting" --location "Austrlaia" --saved"` |
-| Finish Scraping | Successfully Scraped the "Site URL" ![Example of scraped data from indeed](../../assets/imgs/job_scraped.jpg) |
+| Finish Scraping | Successfully Successfully Web Scraped ![Example of scraped data from indeed](../../assets/imgs/job_scraped.jpg) |
 
 ## Suggested URLs for Webscraping
 
