@@ -39,8 +39,15 @@ This is an example of a method that the string class has. Note this method is no
 
 We can see what attributes and methods a instance has access to by using the built in function `dir()` if we use `dir("")` then we get the following:
 
-```txt
-['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+```json
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', 
+'__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', 
+'__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', 
+'__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 
+'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 
+'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 
+'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 
+s'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
 ```
 
 This shows all of the normal methods/attributes (indicated by no prefixed underscores) as well as "private" methods/attributes (indicated by prefixed underscores) that the class has access to. Their are also special methods called **dunder methods** (double underscore methods) and these are methods that Python will use in special ways. So for instance the `__add__` method seen above will concatenate strings in this instance. The `__init__` method will initialise an object so will be the first thing that is ran when making an object of that class.
@@ -73,6 +80,38 @@ s = Square(5)
 print(s.x) # => 5
 print(s.area()) # => 25
 ```
+
+In Python version 3.7 onwards there is some extra convenience methods for building your classes. These are called `dataclass`es, we will compare side by side the difference
+
+=== "Python < 3.7"
+
+    ```python
+    class Square(object):
+        def __init__(self, x, name, color, rounded):
+            self.x = x
+            self.name = name
+            self.color = color
+            self.rounded = rounded
+        
+        def area(self):
+            return self.x ** 2
+    ```
+
+=== "Python >= 3.7"
+
+    ```python
+    from dataclasses import dataclass
+
+    @dataclass
+    class Square(object):
+        x: float
+        name: str
+        color: str
+        rounded: bool
+        
+        def area(self):
+            return self.x ** 2
+    ```
 
 ### Using dunder methods to define our own operator functionality
 

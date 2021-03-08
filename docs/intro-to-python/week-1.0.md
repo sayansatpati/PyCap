@@ -443,7 +443,7 @@ Control flow is the order in which individual statements, instructions or functi
 
 #### Operators
 
-These operators differ from the arthmetic operators defined earlier as they would return different data types depending on what was used, for example `2 * 2.5` would return `5.0`. However, with conditional operators we will always get back a `bool` (Boolean - True/False) result as we are comparing two values.
+These operators differ from the arithmetic operators defined earlier as they would return different data types depending on what was used, for example `2 * 2.5` would return `5.0`. However, with conditional operators we will always get back a `bool` (Boolean - True/False) result as we are comparing two values.
 
 - "==" is the **eq**uality operator
 - "!=" is the **n**ot **eq**uality operator
