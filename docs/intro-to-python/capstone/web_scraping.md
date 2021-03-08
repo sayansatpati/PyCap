@@ -20,7 +20,9 @@ Create a basic commandline application using Python 3.6+ that allows a user scra
 In this exercise we will scrape job postings from indeed website.
 #### Starting point for Web Scraping
 The starting step for webscraper is to familiarise yourself with the website you want to gather information from. These steps can include examining the website's URL
-and inspecting the website.
+and inspecting the website using browser's developer tools.
+##### Example
+![indeed's URL](../../assets/imgs/indeed_url.png)
 
 ### Basic Data Analysis
 We will also introduce some basic data analysis on the the scraped data.

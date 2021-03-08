@@ -8,12 +8,14 @@ Create a basic commandline application using Python 3.6+ that allows a user scra
 In this exercise we will scrape job postings from indeed website.
 #### Starting point for Web Scraping
 The starting step for webscraper is to familiarise yourself with the website you want to gather information from. These steps can include examining the website's URL
-and inspecting the website.
+and inspecting the website using browser's developer tools.
+##### Example
+![indeed's URL](images/indeed_url.png)
 
 ### Basic Data Analysis
 We will also introduce some basic data analysis on the the scraped data.
 To perform the analysis, we will have to create a basic commandline application using Python 3.6+ that analyses our scraped data: 
-- With Indeed data, we will see if we can filter our scraped data and display jobs within our specified salary range and industry within Australia.    
+- Indeed data, we will see if we can filter our scraped data and display jobs within our specified salary range and industry within Australia.    
 
 ## Coding Standard and Practice
 Your code should be well-documented with a docstrings, comments and a README describing how your program works, unit tests to ensure it works as expected and type annotations and finally well formatted using Black. This is so other developers can understand how to help build upon your program.
@@ -25,10 +27,10 @@ A list of operations that your app should support, as well as how we expect them
 | Operation                                            | Usage |
 |------------------------------------------------------|-------|-------------|
 | Start the scaping process on the provided link | `"python3 webscraper.py "<Site URL>""` |
-| Extract all job title based on the location query | |
-| Extract company name based on the location query | |
-| Extract company rating based on the location query | |
-| Extract salary range based on the location query | |
+| Extract all job title based on the location Australia | |
+| Extract company name based on the location Australia | |
+| Extract company rating based on the location Australia | |
+| Extract salary range based on the location Australia | |
 | Filter the scraped data based on the industry - "Consulting" | |
 | Save the jobs into CSV file | |
 | Finish Scraping | | Successfully Scraped the "Site URL" ![Example of scraped data from indeed](images/job_scraped.jpg) |
