@@ -16,7 +16,7 @@ links:
 Capstone example of applying the learnings from PyCap intro to Python and create a web scraper to programmatically gather and analyse information 
 ## Problem
 ### Introduction to Web Scraping 
-Create a basic commandline application using Python 3.6+ that allows a user scrap an information from various website and save out the information to be use later. 
+Create a basic commandline application using Python 3.6+ that allows a user scrap an information from various website. 
 In this exercise we will scrape 2 website, stock information from ASX and job postings on indeed.
 #### Starting point for Web Scraping
 The starting step for webscraper is to familiarise yourself with the website you want to gather information from. These steps can include examining the website's URL
